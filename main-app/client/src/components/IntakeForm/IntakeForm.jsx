@@ -9,7 +9,7 @@ class IntakeForm extends React.Component {
       <div className="intake-form-container">
         <section className="intake-form">
           <h1 className="intake-form-title">Intake Form</h1>
-          <DynamicFormContainer 
+          <DynamicFormContainer
             questions={IntakeFormQA}
           />
         </section>
